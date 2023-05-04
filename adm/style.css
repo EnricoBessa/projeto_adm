@@ -1,0 +1,50 @@
+html{
+    min-width: 360px;
+}
+label {
+    font-weight: bolder;
+}
+.form-contato{
+    display: flex;
+}
+::placeholder {
+    color: lightskyblue !important;
+    opacity: 3;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  lightskyblue !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  lightskyblue !important;
+    opacity:  3;
+ }
+ h1 {
+     text-align: center;
+ }
+ #msg {
+     height: 60px;
+ }
+ #grid-contatos tbody {
+     cursor: pointer;
+ }
+ .footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+    width: 100%;
+ }
+ .img_footer{
+    max-width: 150px;
+}
+.gray-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
